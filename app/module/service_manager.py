@@ -70,8 +70,7 @@ class ServiceManager:
         response.status_code = self.error
         return response
 
-    def _redirect_to_payment_type_by_amount(self, transaction):
-        pass
+
 
     def make_payment(self, transaction):
         if transaction.Amount <= 20:
